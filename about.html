@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" style = "background-color:rgb(218, 155, 172)" >
+<head>
+    <div class="topnav" style =  "background-color: rgba(76, 44, 77, 0.522);
+    overflow: hidden;">
+
+    <a style =  "float: left;
+    color: #452636;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;" 
+
+    class="active" ></a>
+    <a style="color:#31071d52; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" href="#home">Home</a>
+    <a style="color:#31071d52; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" href="about.html">About</a>
+    <a style="color:#31071d52; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" href= "portfolio.html">Portfolio</a>
+  </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "color:#5f394d52; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        <p>
+         Click any icon to learn more about me:
+     
+         <style>
+            
+.textOverImage{
+    width: 200px;
+    height: 200px;
+     display: inline-block;
+     background-size: cover;
+     border-radius: 4px;
+     margin:4px; 
+     position: relative;
+     cursor: pointer;
+     overflow: hidden;
+}
+.textOverImage > input{
+    display:none;
+}
+.textOverImage > div, .textOverImage > h2{
+    position: absolute;
+    background-color: rgba(159, 128, 160, 0.813);
+    bottom:4px;
+    left:4px;
+    right:4px;
+    border-radius: 4px;
+    padding: 8px;
+    overflow: hidden;
+    opacity: 0;
+    transition:.3s;
+}
+.textOverImage:hover  > h2, .textOverImage > input:checked + h2 + div{
+   bottom: 4px;
+   opacity:1;
+}
+.textOverImage > input:checked +h2{
+    bottom: -20px;
+    opacity: 0;
+}
+.textOverImage:hover  > h2{
+    margin:0;
+}
+ </style>
+
+</p>
+<label class ="textOverImage" style="background-image: url(https://scontent.fdet1-1.fna.fbcdn.net/v/t39.30808-6/254685149_6346562705415287_3954778028551242081_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=VizhwbcwgrwAX8_Jp-v&_nc_ht=scontent.fdet1-1.fna&oh=00_AfBgGCPkLEh-N-hl6O_VxF52xeXozGpaZ6d9ZyYP3t70sg&oe=63E87FDF)">
+<input type="checkbox";>
+    <h2>Ceramics</h2>
+<div style="color:rgb(32, 0, 33); background-color: #554a4f;">
+ I have been a Potter for 3.5 years. In that time I have taught hundreds 
+of people how to do pottery, I have won "Best in Craft", I have thrown a LARGE art market, and continue to learn every single day
+</div>
+</label>
+
+<label class ="textOverImage" style="background-image: url(https://scontent.fdet1-1.fna.fbcdn.net/v/t1.6435-9/62030477_2687734511298143_2591237006142996480_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=rsmtLZajhi0AX8PieUY&_nc_ht=scontent.fdet1-1.fna&oh=00_AfB-coBdTEBh00i14VYV89s_UAs_9u2ZiNBjWkJhmCa8Tw&oe=640BA5E9)">
+    <input type="checkbox";>
+    <h2>Hobbies</h2>
+    <div style="color:rgb(32, 0, 33); background-color: #554a4f;">
+    Like most Michigan gals I love the lake shore. Anywhere with a large body of water, and I'm there. When I'm not coding, doing pottery, or at the lake, you can find me 
+    biking, rock climbing, bee keeping, or my newest obession, playing pickle-ball
+    </div>
+</label>
+<label class ="textOverImage" style="background-image: url(https://scontent.fdet1-1.fna.fbcdn.net/v/t1.6435-9/47249098_2301207336617531_7206480339823230976_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=jOVaa9birhUAX89d3Ay&_nc_ht=scontent.fdet1-1.fna&oh=00_AfDuWsUh3UqVSgtX5ulXdnTbn8_vWvMs8oJ9kXtdD0krRQ&oe=640B9AB7)">
+    <input type="checkbox";>
+    <h2>The Family</h2>
+    <div style="color:rgb(32, 0, 33); background-color: #554a4f;">
+    I am the middle child of 7 children. I have two neices, and three nephews. In 2020 I purchased my childhood home when my parents decided to move
+    ...I'm still deciding if that was a smart decision!
+    </div>
+</label>
+</p>
+    </div>
+</body>
+</html>
